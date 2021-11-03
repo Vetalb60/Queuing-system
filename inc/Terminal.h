@@ -1,11 +1,11 @@
 #pragma once
 #include<iostream>
 
-#define TRUE				true
-#define FALSE				false
+#define TRUE			true
+#define FALSE			false
 
-#define _SIX_HOURS			21600
-#define _MAX_STRING			10
+#define _SIX_HOURS		21600
+#define _MAX_STRING		10
 #define _TERMINAL_NUMBER	3
 
 class Terminal
@@ -13,9 +13,9 @@ class Terminal
 public:
 	Terminal()
 	{
-		this->_downtime				= NULL;
+		this->_downtime			= NULL;
 		this->_terminal_busy_time	= NULL;
-		this->_is_busy				= FALSE;
+		this->_is_busy			= FALSE;
 		this->_string_counter		= NULL;
 		this->setTerminalGlobalTime(NULL);
 	}
