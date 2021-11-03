@@ -9,8 +9,8 @@ public:
 	MainFrame()
 	{
 		this->_mainframe_busy_time	= NULL;
-		this->_is_busy				= FALSE;
-		this->_prev_time			= NULL;
+		this->_is_busy			= FALSE;
+		this->_prev_time		= NULL;
 		this->setMainframeGlobalTime(NULL);
 	}
 
